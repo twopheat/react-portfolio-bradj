@@ -13,7 +13,9 @@ function App() {
       <header className="App-header">
         <Wrapper>
           <Header />
+          <div id="maincontent">
           <Main />
+          </div>
           <Footer />
         </Wrapper>
       </header>
