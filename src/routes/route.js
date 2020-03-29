@@ -10,21 +10,17 @@ import {
   Link
 } from "react-router-dom";
 
-export default function Basic() {
+export default function route() {
     return (
       <Router>
         <div className="nav-wrapper">
            
-          <ul className="right hide-on-med-and-down">
+          <ul class="card col s4 m4">
             <li>
               <Link to="/">About</Link>
             </li>
             <li>
               <Link to="/portfolio">Portfolio</Link>
-            </li>
-            <li>
-            
-
             </li>
             <li>
               <Link to="/contact">Contact</Link>
@@ -47,8 +43,11 @@ export default function Basic() {
           </Switch>
         </div>
       </Router>
+
     );
+    
   }
   
+
   
 //<a class="dropdown-trigger" href="#!" data-target="dropdown1">Dropdown<i class="material-icons right">arrow_drop_down</i></a>
