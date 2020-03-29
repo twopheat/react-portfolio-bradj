@@ -23,7 +23,7 @@ export default function Basic() {
               <Link to="/portfolio">Portfolio</Link>
             </li>
             <li>
-            <a class="dropdown-trigger" href="#!" data-target="dropdown1">Dropdown<i class="material-icons right">arrow_drop_down</i></a>
+            
 
             </li>
             <li>
@@ -51,3 +51,4 @@ export default function Basic() {
   }
   
   
+//<a class="dropdown-trigger" href="#!" data-target="dropdown1">Dropdown<i class="material-icons right">arrow_drop_down</i></a>

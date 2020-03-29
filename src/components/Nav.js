@@ -5,6 +5,7 @@ import "../styles/Nav.css";
 
 function Nav() {
   return (
+    <div>
     <nav className="navbar light-blue navbar-expand-lg navbar-light">
       
       <div id="logotext" className="App-logo brand-logo right">
@@ -22,6 +23,7 @@ function Nav() {
             </ul>
       </div>
     </nav>
+    </div>
   );
 }
 export default Nav;
