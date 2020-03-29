@@ -1,5 +1,5 @@
 body {
-	background-image: url("../images/bkggold.png");
+	background-image: url("./images/bkggold.png");
 	background-size: auto;
 	background-color: #fff;
 	margin: 0 0 0 0;
@@ -29,7 +29,7 @@ p .darkmode--activated {
 
 .darkmode-background {
 	background: transparent;
-	background-image: url(../images/bkggold.png)!important;
+	background-image: url('./images/bkggold.png')!important;
 }
 
 .darkmode-layer--button {
@@ -450,7 +450,7 @@ nav .nav-wrapper {
 	}
 
 	.contentabout {
-		background-image: url();
+		
 		background-color: #fff;
 		padding: 0px 0 0 0;
 		box-shadow: 0px 1px 1px 1px #00000025;
