@@ -5,6 +5,7 @@ import Nav from '../components/Nav';
 function Header () {
     return (
       <div className="header">
+        
         <Nav />
       </div>
     )

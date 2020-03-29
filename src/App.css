@@ -12,7 +12,7 @@
     animation:none;
   }
   .App-logo:hover {
-    animation: App-logo-spin infinite 1s linear;
+    animation: App-logo-spin infinite 150s linear;
   }
 }
 
