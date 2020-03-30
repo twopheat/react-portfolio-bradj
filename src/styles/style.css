@@ -1,13 +1,28 @@
 body {
 	background-image: url("./images/bkggold.png");
 	background-size: auto;
-	background-color: #fff;
 	margin: 0 0 0 0;
 }
 
-nav {
-	background-color:#ee6e7300!important;
+nav ul a {
+    font-size: 2rem;
 }
+
+
+.darkmode--activated {
+	background-color:#000;
+}
+
+
+.darkmode--activated p, .darkmode--activated li {
+	color: #fff;
+  }
+
+nav {
+	background-color: transparent;
+    box-shadow: none;
+}
+
 body::-webkit-scrollbar {
 	display: none;
 }
@@ -26,8 +41,9 @@ body::-webkit-scrollbar {
 	padding-right: 23%;
 }
 
+
 p .darkmode--activated {
-	color: #fff;
+	color: #fff!important;
 }
 
 .darkmode-background {
@@ -79,7 +95,7 @@ input:not([type]):focus:not([readonly]), input[type=text]:not(.browser-default):
 }
 
 .inputs {
-	border-bottom: 1px solid #03a9f4!important;
+	border-bottom: 1px solid #4498d3!important;
 }
 
 .inputs:active {
@@ -101,6 +117,9 @@ h3 {
 	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+h4 {
+	color:#000;
+}
 h5 {
 	text-align: center;
 }
@@ -108,6 +127,7 @@ h5 {
 p {
 	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 	font-size: 18px;
+	color:#000000;
 }
 
 quote {
@@ -130,7 +150,6 @@ quote {
 	padding: 0 14px 14px 14px;
 	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 	overflow-wrap: break-word;
-	color:black;
 }
 
 #pagetitle {
@@ -157,7 +176,7 @@ quote {
 	bottom: 0;
 	left: 0;
 	width: 100%;
-	height: 4em;
+	height: 1.5em;
 	border-top: 4px solid #fdd600;
 }
 
@@ -276,7 +295,7 @@ nav .nav-wrapper {
 
 .btn:focus {
 	outline: none;
-	border-bottom: 1px solid #03a9f4;
+	border-bottom: 1px solid #4498d3;
 }
 
 #logopic {
@@ -323,7 +342,7 @@ nav .nav-wrapper {
 }
 
 .switch label input[type=checkbox]:checked+.lever:after {
-	background-color: #03a9f4;
+	background-color: #4498d3;
 }
 
 #dropdown1 {

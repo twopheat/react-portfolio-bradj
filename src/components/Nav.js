@@ -5,7 +5,7 @@ import "../styles/Nav.css";
 
 function Nav() {
   return (
-  <nav className="navbar navbar-expand-lg navbar-light">
+<nav className="nav-wrapper navbar-expand-lg navbar-light">
 
         <div id="logotext" className="App-logo brand-logo right">
           <a className="headtext" href="index.html">Brad<a className="headtextblk" href="index.html">|<a className="headtextgold" href="index.html">J</a></a>
@@ -26,5 +26,3 @@ function Nav() {
 }
 export default Nav;
 
-
-//<img src={logo} className="App-logo brand-logo left" alt="logo" />
