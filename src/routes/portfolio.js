@@ -19,7 +19,7 @@ function Portfolio() {
     
   <div className="carousel-item active">
     <img src={lynx} className="d-block w-100" alt=""/>
-      <div className="carousel-caption d-none d-md-block shadow">
+      <div className="carousel-caption d-md-block shadow">
       <h4>Travelynx</h4>
               <p>Travelynx lets people travel in groups with ease.<br /> It uses Node, Axios, Express, REACT and
                 MongoDB.</p>
@@ -30,7 +30,7 @@ function Portfolio() {
     
     <div className="carousel-item">
       <img src={agt} className="d-block w-100" alt=""/>
-      <div className="carousel-caption d-none d-md-block shadow">
+      <div className="carousel-caption d-md-block shadow">
       <h4>Any Given T</h4>
               <p>AGT allows people to soft-bet on sports game outcomes.<br /> It uses JavaScript, Axios and Materialize.
               </p>
@@ -41,7 +41,7 @@ function Portfolio() {
     
     <div className="carousel-item">
     <img src={pos} className="d-block w-100" alt=""/>
-      <div className="carousel-caption d-none d-md-block shadow">
+      <div className="carousel-caption d-md-block shadow">
       <h4>Simple Burger POS</h4>
               <p>This app is a simple CRUD app modeled like a POS.<br /> It uses Node, Express, and
                 MySQL.</p>

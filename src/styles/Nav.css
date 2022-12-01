@@ -7,9 +7,16 @@
 
 .navbar-toggler {
 	padding: 10px;
-	margin: 10px;
+	margin: 10px 35px 10px 10px;
 }
 
+
+@media only screen and (min-width: 994px) {
+	.navbar-collapse {
+		right:30px;
+		top:30px;
+	}
+}
 
 @media only screen and (max-width: 993px) {
 
@@ -40,11 +47,9 @@
 	.nav-item {
 		z-index:50!important;
 	}
-	.navbar-toggler {
-		margin-right:35px;
-	}
 	.navbar-collapse {
 		right:30px;
+		
 	}
 	
 }

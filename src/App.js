@@ -14,8 +14,9 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App p-150">
       <header className="App-header">
+        
         <Router>
         <Wrapper>
           <Header />

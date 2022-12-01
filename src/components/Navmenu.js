@@ -23,7 +23,7 @@ export default function Navmenu() {
         <div className="togglecover">
 
         </div>
-        <Nav className="mr-auto d-block">
+        <Nav className="mr-auto">
           <Nav.Item className="nav-item">
             <Nav.Link className="nav-link" eventKey="1" as={Link} to="/">
               About

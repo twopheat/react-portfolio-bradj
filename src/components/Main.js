@@ -12,6 +12,7 @@ function Main () {
     return (
      
       <Switch>
+        
       <Route exact path="/">
         <About />
       </Route>
