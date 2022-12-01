@@ -12,6 +12,11 @@ body {
 	-webkit-backdrop-filter: blur(5px);
 	backdrop-filter: blur(5px);
 	border:2px solid rgb(226, 188, 15);
+	bottom:-240px;
+}
+
+.carousel-inner {
+	overflow:visible!important;
 }
 
 .carousel-control, .carousel-control {
