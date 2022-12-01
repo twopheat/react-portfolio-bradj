@@ -1,11 +1,50 @@
-.navbar {
-  padding: 20px 25px;
-  margin: 0 auto;
-  box-shadow:none;
+
+.navbar-collapse.in {
+	background-color: white;
+	box-shadow: 0px 3px 2px 1px #00000009;
+	z-index: 999;
 }
 
-.navbar-collapse {
-  margin: 0 auto;
-  align-items: flex-start;
+.navbar-toggler {
+	padding: 10px;
+	margin: 10px;
 }
 
+
+@media only screen and (max-width: 993px) {
+
+	.nav-link {
+		background-color: rgba(255, 255, 255, 0.192);
+		-webkit-backdrop-filter: blur(5px);
+    	backdrop-filter: blur(5px);
+		border-radius:7px;
+		border:solid 3px rgb(226, 188, 15);
+	}
+	.navbar-toggler:active {
+		border-radius:7px;
+		outline:solid 3px rgb(226, 188, 15)!important;
+		border:0!important;
+	}
+	.navbar-toggler:focus {
+		border-radius:7px;
+		outline:solid 3px rgb(226, 188, 15)!important;
+		border:0!important;
+	}
+	.navbar-toggler {
+		border: 0px solid transparent;
+		
+	}
+	.navbar-nav {
+		padding-top:200px;
+	}
+	.nav-item {
+		z-index:50!important;
+	}
+	.navbar-toggler {
+		margin-right:35px;
+	}
+	.navbar-collapse {
+		right:30px;
+	}
+	
+}

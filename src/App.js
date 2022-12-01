@@ -19,8 +19,11 @@ function App() {
         <Router>
         <Wrapper>
           <Header />
+          
           <div id="maincontent">
+            
           <Main />
+          
           </div>
           <Footer />
         </Wrapper>
