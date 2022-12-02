@@ -18,6 +18,9 @@ function Portfolio() {
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="Slide 6"></button>
   </div>
   <div className="carousel-inner shadow-sm">
     
@@ -43,17 +46,6 @@ function Portfolio() {
       </div>
     </div>
     
-    <div className="carousel-item">
-    <img src={pos} className="d-block w-100" alt=""/>
-      <div className="carousel-caption d-md-block shadow">
-      <h4>Simple Burger POS</h4>
-              <p>This app is a simple CRUD app modeled like a POS.<br /> It uses Node, Express, and
-                MySQL.</p>
-              <p><a href="https://github.com/twopheat/burger">Github Repo</a> | <a target="_blank"
-                  rel="noopener noreferrer" href="https://mvc-burger-pos.herokuapp.com/">Deployed on Heroku</a></p>
-      </div>
-    </div>
-
     <div className="carousel-item">
     <img src={pos} className="d-block w-100" alt=""/>
       <div className="carousel-caption d-md-block shadow">
@@ -94,7 +86,11 @@ function Portfolio() {
     <span className="visually-hidden">Next</span>
   </button>
 </div>
-
+<div className="row">
+<small className="col-12 center ml-auto mr-auto bottom">
+  *these range from recent personal and client projects to Boot Camp assignments*
+</small>
+</div>
 </div>
       
       
