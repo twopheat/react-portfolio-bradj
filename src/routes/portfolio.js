@@ -58,39 +58,39 @@ function Portfolio() {
     </div>
  
     <div className="carousel-item">
-    <img src={kik} className="d-block w-100" alt=""/>
-      <div className="carousel-caption d-md-block shadow">
-      <h4>Co-Founded Company Site</h4>
-              <p>We started building custom applications in 2020 and are getting better by the day.</p>
-              <p><a href="https://github.com/twopheat/burger">Github Repo</a> | <a target="_blank"
-                  rel="noopener noreferrer" href="https://mvc-burger-pos.herokuapp.com/">Deployed on Heroku</a></p>
-      </div>
+      <img src={kik} className="d-block w-100" alt=""/>
+        <div className="carousel-caption d-md-block shadow">
+        <h4>Co-Founded Company Site</h4>
+                <p>We started building custom applications in 2020 and are getting better by the day.</p>
+                <p><a href="https://github.com/twopheat/burger">Github Repo</a> | <a target="_blank"
+                    rel="noopener noreferrer" href="https://mvc-burger-pos.herokuapp.com/">Deployed on Heroku</a></p>
+        </div>
     </div>
 
     <div className="carousel-item">
-    <img src={ntf} className="d-block w-100" alt=""/>
-      <div className="carousel-caption d-md-block shadow">
-      <h4>Nature's Trace Farm</h4>
-              <p>This is a website that uses React and Firebase to deliver Auth, CMS, and take online Orders using Stripe and SSL security.</p>
-              <p><a target="_blank" rel="noopener noreferrer" href="https://shop.naturestracefarm.com/about">naturestracefarm.com</a></p>
-      </div>
+      <img src={ntf} className="d-block w-100" alt=""/>
+        <div className="carousel-caption d-md-block shadow">
+        <h4>Nature's Trace Farm</h4>
+                <p>This is a website that uses React and Firebase to deliver Auth, CMS, and take online Orders using Stripe and SSL security.</p>
+                <p><a target="_blank" rel="noopener noreferrer" href="https://shop.naturestracefarm.com/about">naturestracefarm.com</a></p>
+        </div>
     </div>
 
-  </div>
-  <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-    <span className="prev-icon" aria-hidden="true">← </span>
-    <span className="visually-hidden">Previous</span>
-  </button>
-  <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-    <span className="next-icon" aria-hidden="true"> →</span>
-    <span className="visually-hidden">Next</span>
-  </button>
-</div>
-<div className="row">
-<small className="col-12 center ml-auto mr-auto bottom">
-  *these range from recent personal and client projects to Boot Camp assignments*
-</small>
-</div>
+    </div>
+      <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span className="prev-icon" aria-hidden="true">← </span>
+        <span className="visually-hidden">Previous</span>
+      </button>
+      <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span className="next-icon" aria-hidden="true"> →</span>
+        <span className="visually-hidden">Next</span>
+      </button>
+    </div>
+    <div className="row">
+      <small className="col-12 center ml-auto mr-auto bottom">
+        *these range from recent personal and client projects to Boot Camp assignments*
+      </small>
+    </div>
 </div>
       
       
