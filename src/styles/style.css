@@ -68,6 +68,7 @@ ul {
 	position:absolute;
 	
 }
+
 body::-webkit-scrollbar {
 	display: none;
 }
@@ -77,6 +78,10 @@ body::-webkit-scrollbar {
     font-style: normal;
     font-weight: normal;
     src: local('ChunkFiveRegular'), url("Chunkfive.woff") format('woff');
+}
+
+.hide {
+	visibility: hidden;
 }
 
 #logotext {
@@ -122,22 +127,25 @@ body::-webkit-scrollbar {
 }
 
 .border2 {
-	outline:3px rgb(226, 188, 15) solid;
+	outline:1px #000000 solid;
 }
+
 .border3 {
-	outline:3px #4498d3 solid;
+	outline:1px #000000 solid
 }
 
 .border2:hover {
-	border:4px rgb(226, 188, 15) solid;
+	outline:4px rgb(226, 195, 57) solid;
 }
+
 .border3:hover {
-	border:4px #4498d3 solid;
+	outline:4px #4498d3 solid;
 }
 
 .top {
 	margin-top:-60px;
 }
+
 .headtext {
 	color: #fff;
 	text-shadow: 0px 1px 0px #999, 0px 2px 0px #888, 0px 3px 0px #777, 0px 4px 0px #666, 0px 5px 0px #555, 0px 6px 0px #444;
@@ -157,9 +165,9 @@ body::-webkit-scrollbar {
 }
 
 input:not([type]):focus:not([readonly]), input[type=text]:not(.browser-default):focus:not([readonly]), input[type=password]:not(.browser-default):focus:not([readonly]), input[type=email]:not(.browser-default):focus:not([readonly]), input[type=url]:not(.browser-default):focus:not([readonly]), input[type=time]:not(.browser-default):focus:not([readonly]), input[type=date]:not(.browser-default):focus:not([readonly]), input[type=datetime]:not(.browser-default):focus:not([readonly]), input[type=datetime-local]:not(.browser-default):focus:not([readonly]), input[type=tel]:not(.browser-default):focus:not([readonly]), input[type=number]:not(.browser-default):focus:not([readonly]), input[type=search]:not(.browser-default):focus:not([readonly]), textarea.materialize-textarea:focus:not([readonly]) {
-	border-bottom: 3px solid #ffde16;
-	-webkit-box-shadow: 0 1px 0 0 #ffde16;
-	box-shadow: 0 1px 0 0 #ffde16;
+	border-bottom: 3px solid rgb(209, 182, 49);
+	-webkit-box-shadow: 0 1px 0 0 rgb(209, 182, 49);
+	box-shadow: 0 1px 0 0 rgb(209, 182, 49);
 }
 
 .inputs {
@@ -167,7 +175,7 @@ input:not([type]):focus:not([readonly]), input[type=text]:not(.browser-default):
 }
 
 .inputs:active {
-	border-bottom: 1px solid #ffde16!important;
+	border-bottom: 1px solid rgb(209, 182, 49)!important;
 }
 
 a {
@@ -206,11 +214,53 @@ quote {
 }
 
 #me {
-	width: 105%;
-	border-radius: 50%;
-	height: auto;
+	background-image: url('../images/meblank.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	min-height:320px;
+	max-height:500px;
+	min-width:320px;
+	max-width:500px;
 }
 
+
+/* Shine */
+.me {
+	position: relative;
+	overflow:hidden;
+}
+.me::before {
+	position: absolute;
+	top: 0;
+	left: -75%;
+	z-index: 2;
+	display: block;
+	content: '';
+	width: 50%;
+	height: 100%;
+	background: -webkit-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(138, 209, 249, 0.219) 100%);
+	background: linear-gradient(to right, rgba(255,255,255,0) 0%, rgba(255,255,255,.3) 100%);
+	-webkit-transform: skewX(-25deg);
+	transform: skewX(-25deg);
+	border-radius:50%;
+}
+.me:hover::before {
+	-webkit-animation: shine .75s;
+	animation: shine .75s;
+}
+@-webkit-keyframes shine {
+	100% {
+		left: 125%;
+	}
+}
+@keyframes shine {
+	100% {
+		left: 125%;
+	}
+}
+
+/*----*/
 .bar {
 	pointer-events: none;
 }
@@ -226,7 +276,7 @@ quote {
 	font-weight: bold;
 	font-family: 'Times New Roman', Times, serif;
 	padding-top: 20px;
-	color: #fdd600;
+	color: rgb(209, 182, 49);
 }
 
 .flex-container {
@@ -265,7 +315,7 @@ quote {
 	/* position: fixed; */
 	/* bottom: 0; */
 	height: 2.5em;
-	border-top: 4px solid #fdd600;
+	border-top: 4px solid rgb(209, 182, 49);
 	z-index:500;
 }
 
@@ -321,25 +371,19 @@ iframe {
 	margin: 0 auto;
 }
 
-.card.small {
-	height: auto;
-	padding: 1%;
-	margin: 3%;
-	overflow: hidden;
-}
 
 .card {
 	border-radius: 7px 7px 0 0;
 	background-color: rgba(255, 255, 255, 0.402);
-	-webkit-backdrop-filter: blur(3px);
-	backdrop-filter: blur(3px);
+	-webkit-backdrop-filter: blur(1px);
+	backdrop-filter: blur(1px);
 }
 
 .card2 {
 	border-radius: 0 0 7px 7px;
-	background-color: rgba(0, 0, 0, 0.176);
-	-webkit-backdrop-filter: blur(3px);
-	backdrop-filter: blur(3px);
+	background-color: rgba(255, 255, 255, 0.176);
+	-webkit-backdrop-filter: blur(1px);
+	backdrop-filter: blur(1px);
 }
 
 #fiveday-weather {
