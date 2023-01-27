@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "bootstrap": "^5.2.3",
-    "lint": "^0.7.0",
+    "lint": "^0.8.19",
     "react": "^16.13.1",
     "react-bootstrap": "^2.6.0",
     "react-dom": "^16.13.1",
