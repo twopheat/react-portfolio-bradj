@@ -6,7 +6,7 @@ function About() {
   return (
     
       <div className="container z-1 white radius-1 mt-3">
-      <h1 className="hide">Brad Johnston - TwoPheat</h1>
+      <h1 className="mt-5 center">About Me</h1>
         <br />
         <div className='row'>
           <div className="card shadow-sm z-1">
@@ -20,7 +20,7 @@ function About() {
                   regular jobs so I never considered myself an actual developer. Coding Bootcamp has made me
                   realize I have been a novice Full Stack Developer for a decade. I just never had any official structure or
                   certifications, thus no jobs in the industry other than start-ups and building WordPress sites as part of my
-                  IT firm's offerings. Now I am Full Stack Certified and it's Official.</p>
+                  IT firm's offerings. Now I am Full Stack Certified, Let's GO.</p>
                   <pre>-Brad Johnston 2020</pre>
               
               </div>
@@ -32,9 +32,9 @@ function About() {
         
         <div className='row justify-content-around'>
 
-          <div className='col-lg-4 offset-lg-1 col-md-5 offset-md-1 col-sm-12 col-xs-12 card2 shadow-sm border2'>
-            <p className='p-3'>After graduating the Full Stack developer course at UCR Riverside
-             I am now a Full Stack developer with Front End tendencies. I do not stop learning or creating. As a motivated self-starter I am
+          <div className='col-lg-4 offset-lg-1 col-md-5 offset-md-1 col-sm-12 col-xs-12 card3 shadow-sm border2'>
+            <p className='p-3 mt-4'>After graduating the Full Stack developer course at UCR Riverside
+             I am now a Full Stack developer with Front End tendencies. I never stop learning and I cannot stop creating. As a motivated self-starter I am
                a founder to the core. Always a team player and natural leader, I graduated the
                 Leadership Dekalb Class of 2010. I try to give the client AND the user what they want.</p>
           </div>

@@ -1,11 +1,8 @@
 import React from "react";
 
 import agt from '../images/agt.JPG'
-import lynx from '../images/lynx.png'
-import pos from '../images/mvcpos.JPG'
-import dcs from '../images/dcschoolspic.png'
-import kik from '../images/kickpic.png'
-import ntf from '../images/ntfpic.png'
+import dcs from '../images/dcschools.jpg'
+import kik from '../images/kickpic.jpg'
 
 
 function Portfolio() {
@@ -18,23 +15,32 @@ function Portfolio() {
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="Slide 6"></button>
+
   </div>
   <div className="carousel-inner shadow-sm">
     
   <div className="carousel-item active">
-    <img src={lynx} className="d-block w-100" alt=""/>
-      <div className="carousel-caption d-md-block shadow">
-      <h4>Travelynx</h4>
-              <p>Travelynx lets people travel in groups with ease.<br /> It uses Node, Axios, Express, REACT and
-                MongoDB.</p>
-              <p><a href="https://github.com/Team-CBD/trip-planner-app">Github Repo</a> | <a target="_blank"
-                  rel="noopener noreferrer" href="https://travelynx.herokuapp.com/">Deployed on Heroku</a></p>
-      </div>
+      <img src={kik} className="d-block w-100" alt=""/>
+        <div className="carousel-caption d-md-block shadow">
+        <h4>Co-Founded Company Site</h4>
+                <p>We started building custom applications in 2020.</p>
+                <p>Github Repo is Private | <a target="_blank"
+                    rel="noopener noreferrer" href="https://kickapps.io/">https://kickapps.io</a><br />Built using React.js, PostGRES, Vercel, Supabase, Google Docs, Mailchimp, Social Logins, Google Analytics, Stripe Payments +</p>
+        </div>
     </div>
     
+    <div className="carousel-item">
+    <img src={dcs} className="d-block w-100" alt=""/>
+      <div className="carousel-caption d-md-block shadow">
+      <h4>County School System</h4>
+              <p>This web application equips an entire school system of users with CMS, Document Management, Purchase Order Flow Control (POflow), Social Media Post Approval Gateway (PostFunnel), and much more. <br /> It uses React, Node, Express, and
+                MySQL hosted on AWS.</p>
+              <p>Github Repo is Private | <a target="_blank"
+                  rel="noopener noreferrer" href="https://dcschools.us">https://dcschools.us</a></p>
+      </div>
+    </div>
+
+
     <div className="carousel-item">
       <img src={agt} className="d-block w-100" alt=""/>
       <div className="carousel-caption d-md-block shadow">
@@ -44,36 +50,6 @@ function Portfolio() {
               <p><a href="https://github.com/Team-CBD/AGT">Github Repo</a> | <a target="_blank"
                   rel="noopener noreferrer" href="https://team-cbd.github.io/AGT/">Deployed on Heroku</a></p>
       </div>
-    </div>
-    
-    <div className="carousel-item">
-    <img src={pos} className="d-block w-100" alt=""/>
-      <div className="carousel-caption d-md-block shadow">
-      <h4>Simple Burger POS</h4>
-              <p>This app is a simple CRUD app modeled like a POS.<br /> It uses Node, Express, and
-                MySQL.</p>
-              <p><a href="https://github.com/twopheat/burger">Github Repo</a> | <a target="_blank"
-                  rel="noopener noreferrer" href="https://mvc-burger-pos.herokuapp.com/">Deployed on Heroku</a></p>
-      </div>
-    </div>
- 
-    <div className="carousel-item">
-      <img src={kik} className="d-block w-100" alt=""/>
-        <div className="carousel-caption d-md-block shadow">
-        <h4>Co-Founded Company Site</h4>
-                <p>We started building custom applications in 2020 and are getting better by the day.</p>
-                <p><a href="https://github.com/twopheat/burger">Github Repo</a> | <a target="_blank"
-                    rel="noopener noreferrer" href="https://mvc-burger-pos.herokuapp.com/">Deployed on Heroku</a></p>
-        </div>
-    </div>
-
-    <div className="carousel-item">
-      <img src={ntf} className="d-block w-100" alt=""/>
-        <div className="carousel-caption d-md-block shadow">
-        <h4>Nature's Trace Farm</h4>
-                <p>This is a website that uses React and Firebase to deliver Auth, CMS, and take online Orders using Stripe and SSL security.</p>
-                <p><a target="_blank" rel="noopener noreferrer" href="https://shop.naturestracefarm.com/about">naturestracefarm.com</a></p>
-        </div>
     </div>
 
     </div>
